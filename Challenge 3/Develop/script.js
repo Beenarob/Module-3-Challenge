@@ -31,7 +31,7 @@ var generatePassword = function () {
   // Check for invalid input 
   while (passwordLength < 10 || passwordLength > 158 || isNaN(passwordLength)) {
     window.alert("Invalid input value. \nPlease enter a number between 10 and 158.")
-    passwordLength = window.prompt("Please re-enter your desired length of your password. \n<Minimum 10 charactors>\n<Maximun 158 charactors>")
+    passwordLength = window.prompt("Please re-enter your desired length for your password to meet the following criteria: \nMinimum 10 characters\nMaximun 158 characters")
     // console.log(passwordLength)
     // console.log(typeof passwordLength)    
   }
