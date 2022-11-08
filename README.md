@@ -1,6 +1,6 @@
 # Module-3-Challenge
 This is my module 3 challenge submission
-# Password Generator Starter Code
+# Password Generator Challenge
 
 This password generator starter code helps randomly generate a password based on the users criteria 
 
